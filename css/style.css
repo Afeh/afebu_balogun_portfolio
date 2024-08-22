@@ -206,4 +206,12 @@ img, svg {
 		font-size: 0.7rem;
 	}
 
+	.bottom-container {
+		background-color: #92d2e1;
+		display: flex;
+		height: 10vh;
+		align-items: center;
+		justify-content: center;
+	}
+
 }
