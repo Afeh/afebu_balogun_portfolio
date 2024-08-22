@@ -32,6 +32,10 @@ h2 {
 	margin: 35px 0;
 }
 
+.work-exprience {
+	margin-top: 30px;
+}
+
 .underline {
 	text-decoration: underline;
 }
@@ -79,7 +83,6 @@ h2 {
 
 p {
 	line-height: 2;
-	width: 80%;
 	margin: auto;
 }
 
@@ -96,8 +99,12 @@ hr {
 	margin-bottom: 0;
 }
 
+.abg-text {
+	width: 80%;
+}
+
 .second {
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 a {
@@ -137,6 +144,12 @@ img, svg {
 	font-size: 1rem;
 }
 
+.email p,
+.twitter p,
+.linkedin p,
+.Whatsapp p {
+  text-align: center;
+}
 
 @media (min-width: 319px) and (max-width: 480px){
 	h1 {
@@ -192,7 +205,7 @@ img, svg {
 		border: dotted #40514e 4px;
 		border-bottom: none;
 		width: 6%;
-		margin: 100px auto;
+		margin: 50px auto;
 	}
 
 	.middle-container p svg {
@@ -217,4 +230,3 @@ img, svg {
 	}
 
 }
-
