@@ -1,0 +1,209 @@
+.top-container {
+	background-color: #e4f9f5;
+	position: relative;
+	padding-top: 100px;
+
+}
+
+
+body {
+	margin: 0;
+	text-align: center;
+	color: #40514e;
+	font-family: "Lora", serif;
+	font-weight: 500;
+	font-size: 1.325rem;
+}
+
+h1 {
+	font-family: "Playwrite FR Moderne", cursive;
+	font-size: 3.625rem;
+	color: #66bfbf;
+	margin: 50px auto 0 auto;
+}
+
+h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #66bfbf;
+	font-size: 2.625rem;
+	padding: 10px;
+	margin: 35px 0;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.cloud-1 {
+	position: absolute;
+	top: 30px;
+	right: 250px;
+	height: 50px;
+}
+
+.cloud-2 {
+	position: absolute;
+	bottom: 500px;
+	left: 250px;
+	height: 50px;
+}
+
+.sun {
+	position: absolute;
+	top: 30px;
+	left: 250px;
+	height: 100px;
+	/* transform: rotate(20deg); */
+}
+
+.mountain {
+	width: 100%;
+}
+
+.middle-container{
+	margin-top: 100px;
+}
+
+.profile-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.intro {
+	width: 30%;
+	margin: auto;
+}
+
+p {
+	line-height: 2;
+}
+
+hr {
+	border: dotted #40514e 12px;
+	border-bottom: none;
+	width: 6%;
+	margin: 100px auto;
+}
+
+.abg {
+	height: 80%;
+	width: 80%;
+	margin-bottom: 0;
+}
+
+.second {
+	margin-top: 70px;
+}
+
+a {
+	text-decoration: none;
+	color: #40514e;
+}
+
+a:hover {
+	color: blue;
+}
+
+.place-margin {
+	margin-top: 30px;
+}
+
+img, svg {
+	vertical-align: baseline;
+}
+
+.socials-container {
+	display: flex;
+	height: 25vh;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.bottom-container {
+	background-color: #92d2e1;
+	display: flex;
+	height: 20vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer {
+	font-size: 1rem;
+}
+
+
+@media (min-width: 319px) and (max-width: 480px){
+	h1 {
+		font-size: 2.5rem;
+		font-weight: 600;
+	}
+
+	h2{
+		font-size: 1.625rem;
+	}
+
+	.sun {
+		position: absolute;
+		top: 30px;
+		left: 50px;
+		height: 65px;
+	}
+
+	.cloud-1 {
+		position: absolute;
+		top: 30px;
+		right: 25px;
+		height: 25px;
+	}
+
+	.cloud-2 {
+		position: absolute;
+		bottom: 150px;
+		left: 25px;
+		height: 25px;
+	}
+
+	.profile-img {
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+	}
+
+	body {
+		font-size: 0.9rem;
+	}
+
+	.intro {
+		width: 60%;
+		margin: auto;
+	}
+
+	h3{
+		font-size: 1.225rem;
+	}
+
+	hr {
+		border: dotted #40514e 4px;
+		border-bottom: none;
+		width: 6%;
+		margin: 100px auto;
+	}
+
+	.middle-container p svg {
+		height: 20px;
+	}
+
+	.middle-container .socials-container div svg {
+		font-size: 0.8rem;
+		width: 20px;
+	}
+
+	.footer {
+		font-size: 0.7rem;
+	}
+
+}
